@@ -1,0 +1,1 @@
+delete from newlistings where id = $1;
