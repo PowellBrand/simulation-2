@@ -5,7 +5,7 @@ export default class Auth extends Component {
 
     render() {
         return (
-            <div>
+            <div className ='back'>
                 <div className='home_main'>
                     <img className='home_icon' src='./auth_logo.png'/>
                     <p>Username</p>
@@ -16,7 +16,7 @@ export default class Auth extends Component {
                     <Link to='/dashboard'><button className='loginbtn'>Login</button></Link>
                     <button className='regbtn'>Register</button>
                 </div>
-                Home content
+               
             </div>
         )
     }

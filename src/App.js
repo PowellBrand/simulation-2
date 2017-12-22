@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import routes from './routes';
 import { Link } from 'react-router-dom';
@@ -10,7 +9,7 @@ class App extends Component {
       //42E
       <div className="App">
         <nav>
-          <div> Route testing</div>
+          <div className='test'> Route testing</div>
           <Link to='/'>Home</Link>
           <Link to='/dashboard'>dashboard</Link>
           <Link to='/wizard1'>wizard1</Link>
